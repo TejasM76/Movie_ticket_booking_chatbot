@@ -1,0 +1,30 @@
+{
+  "movies": [
+    {
+      "title": "The Matrix",
+      "showtimes": [
+        "12:00 PM",
+        "3:00 PM",
+        "6:00 PM",
+        "9:00 PM"
+      ]
+    },
+    {
+      "title": "The Lord of the Rings",
+      "showtimes": [
+        "1:00 PM",
+        "4:00 PM",
+        "7:00 PM",
+        "10:00 PM"
+      ]
+    },
+    {
+      "title": "The Lion King",
+      "showtimes": [
+        "11:00 AM",
+        "2:00 PM",
+        "5:00 PM"
+      ]
+    }
+  ]
+}

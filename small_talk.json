@@ -1,0 +1,121 @@
+{
+      "intents": [
+            {
+                  "tag": "CourtesyGreeting",
+                  "patterns": [
+                        "How are you?",
+                        "Hi how are you?",
+                        "Hello how are you?",
+                        "Hola how are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?"
+                  ],
+                  "responses": [
+                        "I am great, how are you? ",
+                        "I am great thanks! How are you? ",
+                        "I am good thank you, how are you? ",
+                        "I am great, how are you? ",
+                        "how are you? I am great thanks! ",
+                        "I am good thank you, how are you? ",
+                        "good thank you, how are you? "
+                  ]
+            },
+            {
+                  "tag": "do",
+                  "patterns": [
+                        "what can you do?",
+                        "what do you do?",
+                        "how can you asist me?"
+                  ],
+                  "responses": [
+                        "I can assist you with answering some of your questions about which I am programmed, or I can help you with ticket booking.Please enter 'book ticket' as input to start the transaction"
+                    
+                  ]
+            },
+             {
+                  "tag": "fine",
+                  "patterns": [
+                        "i am fine",
+                        "good",
+                        "fine",
+                        "all is well"
+                  ],
+                  "responses": [
+                        "great! Is there anything else I can help with?",
+                        "Happy to help!",
+                        "Good"
+                  ]
+            },
+			{
+				"tag": "userNotFineResponses",
+                  "patterns": [
+                        "not fine.",
+                        "not great",
+                        "sad",
+                        "unhappy",
+                        "unwell",
+                        "depressed"
+                  ],
+                  "responses": [
+                        "Sad to hear that! How can I help you?",
+                        "I can help cheer you up with food!",
+                        "Sorry to hear that! Is there anything I can do to help?",
+                        "Anything I can do to help?"
+                  ]
+				
+			},
+            {
+                  "tag": "Thanks",
+                  "patterns": [
+                        "OK thank you",
+                        "OK thanks",
+                        "OK",
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful"
+                  ],
+                  "responses": [
+                        "No problem! Is there anything else I can help with?",
+                        "Happy to help!",
+                        "Any time!",
+                        "My pleasure"
+                  ]
+            },
+            {
+                  "tag": "UnderstandQuery",
+                  "patterns": [
+                        "Do you understand what I am saying",
+                        "Do you understand me",
+                        "Do you know what I am saying",
+                        "Do you get me",
+                        "Know what I mean"
+                  ],
+                  "responses": [
+                        "Well I would not be a very clever bot if I did not would I?",
+                        "I read you loud and clear!",
+                        "I do in deed!"
+                  ]
+            },
+            {
+                  "tag": "SelfAware",
+                  "patterns": [
+                        "Are you self-aware",
+                        "Do you have a conscious",
+                        "Prove you are self-aware please",
+                        "Prove you have a conscious please"
+
+                  ],
+                  "responses": [
+                        "That is an interesting question, yes i am aware of what ",
+                        "That is an difficult question, can you prove that you are?",
+                        "That depends, can you prove that you are?"
+                  ]
+            }
+
+
+
+
+
+      ]
+}
